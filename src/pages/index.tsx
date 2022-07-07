@@ -18,7 +18,9 @@ export default function SignIn() {
         borderRadius={8}
         flexDir="column"
       >
-        <Stack spacing="4">
+        <Stack
+          spacing="4"
+        >
           <Input
             name='email'
             type='email'
@@ -30,7 +32,14 @@ export default function SignIn() {
             label='Password'
           />
         </Stack>
-        <Button type="submit" mt="6" colorScheme="pink" size="lg">Log in</Button>
+        <Button
+          type="submit"
+          mt="6"
+          colorScheme="pink"
+          size="lg"
+        >
+          Log in
+        </Button>
       </Flex>
     </Flex>
   )
