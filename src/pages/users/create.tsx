@@ -20,7 +20,7 @@ export default function CreateUser() {
         <Box
           flex="1"
           bg="gray.800"
-          p="8"
+          p={["6", "8"]}
           borderRadius={8}
         >
           <Heading
@@ -36,7 +36,7 @@ export default function CreateUser() {
           >
             <SimpleGrid
               minChildWidth="240px"
-              spacing="8"
+              spacing={["6", "8"]}
               w="100%"
             >
               <Input name="name" label="Full name" />
@@ -44,7 +44,7 @@ export default function CreateUser() {
             </SimpleGrid>
             <SimpleGrid
               minChildWidth="240px"
-              spacing="8"
+              spacing={["6", "8"]}
               w="100%"
             >
               <Input name="password" type="password" label="Password" />
